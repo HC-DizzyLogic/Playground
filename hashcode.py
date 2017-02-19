@@ -16,4 +16,10 @@ def read_file(title):
 	return arr
 
 pizza = read_file("small.in")
-print pizza
+arr = [[0 for i in range(len(pizza[0]))] for j in range(len(pizza))]
+j_count = 0
+i_count = 0
+for i in pizza:
+	pass
+	for j in i:
+		pass
